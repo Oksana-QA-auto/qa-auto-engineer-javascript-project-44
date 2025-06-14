@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Brain games project",
   "main": "bin/brain-games.js",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  "publish:dry": "npm publish --dry-run"
+    "publish:dry": "npm publish --dry-run"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Oksana-QA-auto/qa-auto-engineer-javascript-project-44/issues"
   },
-  "homepage": "https://github.com/Oksana-QA-auto/qa-auto-engineer-javascript-project-44#readme"
+  "homepage": "https://github.com/Oksana-QA-auto/qa-auto-engineer-javascript-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
