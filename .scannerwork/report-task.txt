@@ -1,0 +1,7 @@
+organization=oksana-qa-auto
+projectKey=Oksana-QA-auto_qa-auto-engineer-javascript-project-44
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.64410
+dashboardUrl=https://sonarcloud.io/dashboard?id=Oksana-QA-auto_qa-auto-engineer-javascript-project-44
+ceTaskId=AZd0hvr7m7ql83WA3HQ2
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZd0hvr7m7ql83WA3HQ2
