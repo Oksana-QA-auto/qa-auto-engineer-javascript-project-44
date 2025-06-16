@@ -15,11 +15,24 @@ asciinema play brain-even.cast
 
 Файл записи: [brain-calc.cast](./brain-calc.cast)
 
-[Смотреть запись игры brain-calc на asciinema.org](https://asciinema.org/a/abc123def456)
+[Смотреть запись игры brain-calc на asciinema.org](https://asciinema.org/a/NXiA9ZJTSEXHpIGOGFA4cAsQt)
 
 Чтобы воспроизвести:
 
 ```bash
 asciinema play brain-calc.cast
+
+```
+
+## Демонстрация игры `brain-gcd`
+
+📄 Файл записи: [brain-gcd.cast](./brain-gcd.cast)  
+
+🎬 Смотреть запись на asciinema: [asciinema.org](https://asciinema.org/a/rnvVxHAQg72oPyD1Yu5IGslgz)
+
+Чтобы воспроизвести:
+
+```bash
+asciinema play brain-gcd.cast
 
 ```
