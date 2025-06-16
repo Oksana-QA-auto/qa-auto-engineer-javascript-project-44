@@ -15,6 +15,8 @@ asciinema play brain-even.cast
 
 Файл записи: [brain-calc.cast](./brain-calc.cast)
 
+[Смотреть запись игры brain-calc на asciinema.org](https://asciinema.org/a/abc123def456)
+
 Чтобы воспроизвести:
 
 ```bash
