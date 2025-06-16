@@ -39,7 +39,7 @@ asciinema play brain-gcd.cast
 
 ## Демонстрация игры `brain-progression`
 
-🖹 Файл записи: [brain-progression.cast](./brain-progression.cast)
+ Файл записи: [brain-progression.cast](./brain-progression.cast)
 
 Смотреть запись на asciinema.org: 
 [Смотреть запись игры brain-progression](https://asciinema.org/a/uUFuRswkftKI5LS46OVrZXV4x)
@@ -50,3 +50,18 @@ asciinema play brain-gcd.cast
 asciinema play brain-progression.cast
 
 ```
+
+## Демонстрация игры `brain-prime`
+
+[Смотреть запись на asciinema.org]( https://asciinema.org/a/jmut2GKRokVPs7Cy0Ino2jrUF)
+
+Файл записи: [brain-prime.cast](./brain-prime.cast)
+
+Чтобы воспроизвести локально:
+
+```bash
+asciinema play brain-prime.cast
+
+```
+
+
