@@ -36,3 +36,17 @@ asciinema play brain-calc.cast
 asciinema play brain-gcd.cast
 
 ```
+
+## Демонстрация игры `brain-progression`
+
+🖹 Файл записи: [brain-progression.cast](./brain-progression.cast)
+
+Смотреть запись на asciinema.org: 
+[Смотреть запись игры brain-progression](https://asciinema.org/a/uUFuRswkftKI5LS46OVrZXV4x)
+
+Чтобы воспроизвести локально:
+
+```bash
+asciinema play brain-progression.cast
+
+```
