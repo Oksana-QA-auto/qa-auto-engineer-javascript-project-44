@@ -19,7 +19,7 @@ const playEvenGame = () => {
     if (userAnswer !== 'yes' && userAnswer !== 'no') {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
-      return
+    return
     }
 
     if (userAnswer === correctAnswer) {
@@ -29,7 +29,7 @@ const playEvenGame = () => {
      else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
-      return
+    return
     }
   }
 
