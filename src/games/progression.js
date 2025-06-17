@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { greetUser } from '../cli.js';
+import greetUser from '../cli.js';
 
 const generateProgression = (start, step, length, hiddenIndex) => {
   const progression = [];
