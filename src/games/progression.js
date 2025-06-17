@@ -9,7 +9,7 @@ const generateProgression = (start, step, length, hiddenIndex) => {
     progression.push(i === hiddenIndex ? '..' : String(value))
   }
 
-   return progression
+  return progression
 }
 
 const playProgressionGame = () => {
@@ -33,11 +33,11 @@ const playProgressionGame = () => {
     if (userAnswer === correctAnswer) {
       console.log('Correct!')
       correctAnswers += 1
-    } 
-     else {
+    }
+    else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
-    return
+      return
     }
   }
 
