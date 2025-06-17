@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync'
-import greetUser from '../cli.js'
+import greetUser from '../cli.js' // обязательно без {}
 
 const generateProgression = (start, step, length, hiddenIndex) => {
   const progression = []
@@ -33,10 +33,9 @@ const playProgressionGame = () => {
     if (userAnswer === correctAnswer) {
       console.log('Correct!')
       correctAnswers += 1
-    } 
-    else {
+    } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
-      console.log('Let\'s try again, ${name}!')
+      console.log(`Let's try again, ${name}!`)
       return
     }
   }
@@ -45,3 +44,4 @@ const playProgressionGame = () => {
 }
 
 export default playProgressionGame
+
