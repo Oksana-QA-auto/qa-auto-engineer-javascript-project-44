@@ -18,4 +18,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run Hexlet CI
-        uses: hexlet/hexlet-ci-action@v5
+        uses: hexlet/hexlet-ci-action@v1
