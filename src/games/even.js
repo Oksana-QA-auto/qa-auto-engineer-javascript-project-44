@@ -1,7 +1,6 @@
 import readlineSync from 'readline-sync'
 import greetUser from '../cli.js'
 
-// Предикат: возвращает true, если число чётное
 const isEven = num => num % 2 === 0
 
 const playEvenGame = () => {
@@ -25,7 +24,7 @@ const playEvenGame = () => {
     if (userAnswer === correctAnswer) {
       console.log('Correct!')
       correctAnswers += 1
-    } 
+    }
     else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
