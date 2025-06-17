@@ -45,4 +45,3 @@ const playProgressionGame = () => {
 }
 
 export default playProgressionGame
-

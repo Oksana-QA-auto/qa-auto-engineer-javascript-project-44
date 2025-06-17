@@ -8,7 +8,7 @@ const runGame = (rules, getRoundData) => {
   console.log(rules)
 
   for (let i = 0; i < roundsCount; i++) {
-    const [question, correctAnswer] = getRoundData();
+    const [question, correctAnswer] = getRoundData()
     console.log(`Question: ${question}`)
     const userAnswer = readlineSync.question('Your answer: ')
 
@@ -25,4 +25,3 @@ const runGame = (rules, getRoundData) => {
 }
 
 export default runGame
-
