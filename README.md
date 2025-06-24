@@ -2,14 +2,9 @@
 
 ## Демонстрация игры `brain-even`
 
-Файл записи: [brain-even.cast](./brain-even.cast)
+Смотреть запись на asciinema.org: 
+[Смотреть запись игры brain-even](https://asciinema.org/a/ZWMa2VAv1xEbBdaybP6EZwk0P)
 
-Чтобы воспроизвести:
-
-```bash
-asciinema play brain-even.cast
-
-```
 
 ## Демонстрация игры `brain-calc`
 
@@ -39,29 +34,13 @@ asciinema play brain-gcd.cast
 
 ## Демонстрация игры `brain-progression`
 
- Файл записи: [brain-progression.cast](./brain-progression.cast)
-
 Смотреть запись на asciinema.org: 
-[Смотреть запись игры brain-progression](https://asciinema.org/a/uUFuRswkftKI5LS46OVrZXV4x)
+[Смотреть запись игры brain-progression](https://asciinema.org/a/sGOJh8TTcwC8NqCKTR4OpIeeR)
 
-Чтобы воспроизвести локально:
 
-```bash
-asciinema play brain-progression.cast
-
-```
 
 ## Демонстрация игры `brain-prime`
 
-[Смотреть запись на asciinema.org]( https://asciinema.org/a/jmut2GKRokVPs7Cy0Ino2jrUF)
-
-Файл записи: [brain-prime.cast](./brain-prime.cast)
-
-Чтобы воспроизвести локально:
-
-```bash
-asciinema play brain-prime.cast
-
-```
+[Смотреть запись на asciinema.org]( https://asciinema.org/a/YVSZ0g36eiUUXue7xuifiiHia)
 
 
