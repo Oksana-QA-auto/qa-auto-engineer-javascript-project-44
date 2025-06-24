@@ -1,38 +1,16 @@
-import readlineSync from 'readline-sync'
-import greetUser from '../cli.js'
+import runGame from '../index.js'
 
-const isEven = num => num % 2 === 0
+const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-const playEvenGame = () => {
-  const name = greetUser()
-  console.log('Answer "yes" if the number is even, otherwise answer "no".')
+const isEven = (num) => num % 2 === 0
 
-  let correctAnswers = 0
-
-  while (correctAnswers < 3) {
-    const number = Math.floor(Math.random() * 100)
-    console.log(`Question: ${number}`)
-    const userAnswer = readlineSync.question('Your answer: ').toLowerCase()
-    const correctAnswer = isEven(number) ? 'yes' : 'no'
-
-    if (userAnswer !== 'yes' && userAnswer !== 'no') {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
-      console.log(`Let's try again, ${name}!`)
-      return
-    }
-
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!')
-      correctAnswers += 1
-    }
-    else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
-      console.log(`Let's try again, ${name}!`)
-      return
-    }
-  }
-
-  console.log(`Congratulations, ${name}!`)
+const generateRound = () => {
+  const number = Math.floor(Math.random() * 100) + 1
+  const question = `${number}`
+  const correctAnswer = isEven(number) ? 'yes' : 'no'
+  return [question, correctAnswer]
 }
+
+const playEvenGame = () => runGame(description, generateRound)
 
 export default playEvenGame
