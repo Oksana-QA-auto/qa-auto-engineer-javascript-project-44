@@ -1,4 +1,3 @@
-
 import runGame from '../index.js'
 
 const generateProgression = (start, step, length, hiddenIndex) => {
