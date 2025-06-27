@@ -1,9 +1,7 @@
 import runGame from '../index.js'
+import getRandom from '../utils/random.js'
 
 const operators = ['+', '-', '*']
-
-const getRandom = (min, max) =>
-  Math.floor(Math.random() * (max - min + 1)) + min
 
 const calculate = (a, b, operator) => {
   switch (operator) {

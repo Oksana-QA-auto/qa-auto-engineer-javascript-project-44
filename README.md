@@ -1,5 +1,7 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Oksana-QA-auto_qa-auto-engineer-javascript-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Oksana-QA-auto_qa-auto-engineer-javascript-project-44)
 
+[![hexlet-check](https://github.com/Oksana-QA-auto/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg?branch=main)](https://github.com/Oksana-QA-auto/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml)
+
 ## Демонстрация игры `brain-even`
 
 Смотреть запись на asciinema.org: 
