@@ -1,8 +1,6 @@
 import runGame from '../index.js'
 import getRandom from '../utils/random.js'
-
 const operators = ['+', '-', '*']
-
 const calculate = (a, b, operator) => {
   switch (operator) {
     case '+': return a + b
@@ -11,7 +9,6 @@ const calculate = (a, b, operator) => {
     default: throw new Error(`Unknown operator: ${operator}`)
   }
 }
-
 const getRoundData = () => {
   const a = getRandom(1, 50)
   const b = getRandom(1, 50)
@@ -20,7 +17,5 @@ const getRoundData = () => {
   const correctAnswer = String(calculate(a, b, operator))
   return [question, correctAnswer]
 }
-
 const rules = 'What is the result of the expression?'
-
 export default () => runGame(rules, getRoundData)

@@ -2,12 +2,11 @@ import * as js from '@eslint/js'
 import globals from 'globals'
 import * as stylistic from '@stylistic/eslint-plugin'
 import { defineConfig } from 'eslint/config'
-
 export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs}'],
     languageOptions: {
-      sourceType: 'script',
+      sourceType: 'module',
       globals: globals.node,
     },
     plugins: {
